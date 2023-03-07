@@ -13,3 +13,6 @@ class Client:
         print("I'm a", self.attr1)
         print("I'm a", self.attr2)
         return None
+
+    def info(self):
+        print(f"The client name: {self.name} and age: {self.age}")
