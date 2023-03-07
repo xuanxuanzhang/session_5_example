@@ -6,6 +6,7 @@ class Client:
     name = "Danny"
     age = 45
     default = False
+    profile = 'RSME'
 
     # A sample method
     def fun(self):
