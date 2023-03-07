@@ -11,3 +11,4 @@ class Client:
     def fun(self):
         print("I'm a", self.attr1)
         print("I'm a", self.attr2)
+        return None
