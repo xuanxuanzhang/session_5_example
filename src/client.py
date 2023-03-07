@@ -10,8 +10,8 @@ class Client:
 
     # A sample method
     def fun(self):
-        print("I'm a", self.attr1)
-        print("I'm a", self.attr2)
+        print("I'm a", self.name)
+        print("I'm a", self.age)
         return None
 
     def info(self):
