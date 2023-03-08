@@ -1,12 +1,10 @@
-
 class Client:
-
-# A simple class
-# attribute
+    # A simple class
+    # attribute
     name = "Danny"
     age = 45
     default = False
-    profile = 'RSME'
+    profile = "RSME"
 
     # A sample method
     def fun(self):
@@ -17,7 +15,5 @@ class Client:
     def info(self):
         print(f"The client name: {self.name} and age: {self.age}")
 
-
     def get_name(self):
-        print('this is ', self.name)
-
+        print("this is ", self.name)
