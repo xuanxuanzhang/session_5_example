@@ -3,7 +3,7 @@ from src.calculations import sum
 
 def test_simple_sum():
     a = 9
-    b = 10
+    b= 10
     a_plus_b = sum(a, b, a)
 
     # expected output
