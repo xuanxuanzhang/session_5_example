@@ -1,11 +1,12 @@
 def sum(*args):
-    c=0
+    c = 0
     for item in args:
-        c+= item
+        c += item
     return c
+
 
 def product(*args):
     p = 1
     for item in args:
-        p*=item
+        p *= item
     return p
