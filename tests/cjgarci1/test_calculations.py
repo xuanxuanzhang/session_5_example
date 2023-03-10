@@ -8,4 +8,4 @@ def test_sum():
 
 def test_product():
     a, b, c = 1, 2, 4
-    assert 9 == product(a, b, c, a)
+    assert 8 == product(a, b, c, a)
