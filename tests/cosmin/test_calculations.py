@@ -8,5 +8,4 @@ def test_sum():
 
 def test_product():
     a, b, c = 1, 2, 4
-    assert 8 == product(a, b, c)
-#comment to test commit new
+    assert 8 == product(a, b, c, a)
